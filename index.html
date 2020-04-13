@@ -524,24 +524,26 @@
   <form id="survey-form" class="survey">
     <div class="survey__control">
       <label for="name" id="name-label" class="survey__text-label">Name</label>
-      <input type="text" name="name" id="name" placeholder="Mr. Mayor" required aria-required>
+      <input type="text" name="name" id="name" class="survey__text-input" placeholder="Mr. Mayor" required
+        aria-required>
     </div>
     <div class="survey__control">
       <label for="email" id="email-label" class="survey__text-label" class="survey__control">Email</label>
-      <input type="email" name="email" id="email" placeholder="info@badartgoodwalls.com" required aria-required>
+      <input type="email" name="email" id="email" class="survey__text-input" placeholder="info@badartgoodwalls.com"
+        required aria-required>
     </div>
     <div class="survey__control">
       <label for="number" id="number-label" class="survey__text-label" class="survey__control">
         What season of Portlandia isyour favorite?
       </label>
-      <input type="number" name="favorite-season" id="number" min="1" max="8" placeholder="1 - 8" required
-        aria-required>
+      <input type="number" name="favorite-season" id="number" class="survey__number-input" min="1" max="8"
+        placeholder="1 - 8" required aria-required>
     </div>
     <div class="survey__control">
       <label for="dropdown" class="survey__dropdown-label">
         Who is your favorite Portlandia duo?
       </label>
-      <select name="favorite-duo" id="dropdown">
+      <select name="favorite-duo" id="dropdown" class="survey__dropdown">
         <option value="1">Brendan & Michelle</option>
         <option value="2">Spike & Iris</option>
         <option value="3">Malcolm & Kris</option>
@@ -753,7 +755,8 @@
     </p>
     <div class="survey__control">
       <label for="feeling" class="survey__text-label">How did you feel on March 22, 2018?</label>
-      <textarea name="feels" id="feeling" cols="30" rows="10" placeholder="On March 22, 2018, I ..."></textarea>
+      <textarea name="feels" id="feeling" class="survey__text-input" cols="30" rows="10"
+        placeholder="On March 22, 2018, I ..."></textarea>
     </div>
     <button id="submit" class="survey__button">Submit</button>
   </form>
