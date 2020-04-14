@@ -21,9 +21,16 @@ img {
   margin: 1em 0;
 }
 
+.survey {
+  font-size: 1em;
+  font-family: sans-serif;
+  color: #b25319;
+}
+
 .survey__text-label,
 .survey__dropdown-label {
   display: block;
+  font-weight: 700;
   margin-top: 1em;
 }
 
@@ -34,9 +41,6 @@ img {
 */
 .survey__dropdown {
   display: block;
-  font-size: 1em;
-  font-family: sans-serif;
-  font-weight: 700;
   color: #b25319;
   line-height: 1.3;
   padding: 0.6em 1.4em 0.5em 0.8em;
@@ -70,7 +74,7 @@ img {
   background-color: #703111;
   border-radius: 0.5em;
   color: white;
-  padding: 0.25em 1em;
+  padding: 0.25em 0.5em;
 }
 
 .survey__text-input,
