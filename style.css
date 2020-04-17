@@ -3,6 +3,7 @@ body {
   color: #333;
   font: 16px/1.4 "Helvetica Neue", sans-serif;
   margin: 1em;
+  min-width: 320px;
 }
 
 img {
