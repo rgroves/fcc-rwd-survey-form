@@ -32,3 +32,13 @@ img {
 .survey__paragraph {
   margin: 1em 0;
 }
+
+.survey {
+  border: double var(--color-light-accent);
+  border-radius: 1em;
+  box-shadow: 0px 0px 10px var(--color-dark-accent);
+  color: var(--color-dark-highlight);
+  padding: 1em;
+  /* Increase margin to account for the box shadow */
+  margin: calc(1em + 10px) 0em;
+}
