@@ -55,7 +55,8 @@ img {
 }
 
 .survey__label-dropdown,
-.survey__label-text {
+.survey__label-text,
+.survey__legend {
   display: block;
   font-weight: bold;
 }
