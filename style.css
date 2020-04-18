@@ -69,3 +69,17 @@ img {
   width: 100%;
   max-width: 100%;
 }
+
+.survey__fieldset > .survey__control {
+  margin-top: 0.3em;
+}
+
+.survey__input-checkbox {
+  vertical-align: top;
+  margin-top: 0.3em;
+}
+
+.survey__input-checkbox + .survey__label-radio {
+  display: inline-block;
+  width: 90%;
+}
