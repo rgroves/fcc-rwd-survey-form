@@ -27,3 +27,8 @@ img {
   font-weight: bold;
   text-align: center;
 }
+
+.page__paragraph,
+.survey__paragraph {
+  margin: 1em 0;
+}
