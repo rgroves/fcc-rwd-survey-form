@@ -42,3 +42,20 @@ img {
   /* Increase margin to account for the box shadow */
   margin: calc(1em + 10px) 0em;
 }
+
+.survey__control > label:first-child,
+.survey__fieldset,
+.survey__button {
+  margin-top: 0.75em;
+}
+
+/* Remove the margin for the first label of the form */
+.survey > .survey__control:first-child > label:first-child {
+  margin: 0;
+}
+
+.survey__label-dropdown,
+.survey__label-text {
+  display: block;
+  font-weight: bold;
+}
