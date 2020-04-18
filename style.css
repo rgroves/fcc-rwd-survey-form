@@ -60,3 +60,12 @@ img {
   display: block;
   font-weight: bold;
 }
+
+.survey__input-number,
+.survey__input-text,
+.survey__fieldset,
+.survey__dropdown {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
