@@ -142,3 +142,19 @@ img {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
     inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+
+@media screen and (min-width: 400px) {
+  body {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    width: 55%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
