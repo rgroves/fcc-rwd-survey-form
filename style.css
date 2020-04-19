@@ -105,3 +105,33 @@ img {
   padding: 0.5em 0 0.5em 0.5em;
   width: 100%;
 }
+
+.survey__button {
+  background-color: var(--color-dark-highlight);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 25%,
+    rgba(0, 0, 0, 0)
+  );
+  border: 0;
+  border-radius: 0.5em;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  color: var(--color-light);
+  font-variant: small-caps;
+  line-height: 3em;
+  padding: 0 20px;
+  text-align: center;
+  text-shadow: 1px 1px 1px var(--color-dark);
+  width: 100%;
+}
+
+.survey__button:hover {
+  background-color: var(--color-light-highlight);
+}
+
+.survey__button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
