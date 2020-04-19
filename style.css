@@ -97,3 +97,11 @@ img {
   -webkit-appearance: none;
   appearance: none;
 }
+
+.survey__legend {
+  background-color: var(--color-dark-accent);
+  color: var(--color-light);
+  border-radius: 0.5em;
+  padding: 0.5em 0 0.5em 0.5em;
+  width: 100%;
+}
